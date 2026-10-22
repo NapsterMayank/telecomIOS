@@ -1,0 +1,5 @@
+#include "Base.xcconfig"
+
+// MAP_ENVIRONMENT: Point Staging at your staging host when available.
+API_BASE_URL = https:/$()/telecom.ac
+APP_ENVIRONMENT = Staging

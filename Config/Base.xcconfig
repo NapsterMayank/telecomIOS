@@ -1,0 +1,12 @@
+// Shared settings for all environments.
+// Override API_BASE_URL in Debug / Staging / Release xcconfigs.
+
+PRODUCT_BUNDLE_IDENTIFIER = com.telecom.audio.ios
+MARKETING_VERSION = 1.0.0
+CURRENT_PROJECT_VERSION = 1
+IPHONEOS_DEPLOYMENT_TARGET = 17.0
+SWIFT_VERSION = 5.0
+
+// Injected into Info.plist via GENERATE_INFOPLIST_FILE keys / custom Info.plist
+API_BASE_URL = https:/$()/telecom.ac
+APP_ENVIRONMENT = Production

@@ -1,0 +1,1421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E8C6DD7303F502B0030EEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8C6DD2303F502B0030EEF7 /* Assets.xcassets */; };
+		6E8C6E29303F502B0030EEF7 /* NetworkSignalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D95303F502B0030EEF7 /* NetworkSignalView.swift */; };
+		6E8C6E2A303F502B0030EEF7 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DCB303F502B0030EEF7 /* SplashViewModel.swift */; };
+		6E8C6E2B303F502B0030EEF7 /* CloudRecordingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DBC303F502B0030EEF7 /* CloudRecordingCardView.swift */; };
+		6E8C6E2C303F502B0030EEF7 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D9E303F502B0030EEF7 /* AppColors.swift */; };
+		6E8C6E2D303F502B0030EEF7 /* AuthRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DA4303F502B0030EEF7 /* AuthRepositoryProtocol.swift */; };
+		6E8C6E2E303F502B0030EEF7 /* ScrollingMarqueeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D97303F502B0030EEF7 /* ScrollingMarqueeText.swift */; };
+		6E8C6E2F303F502B0030EEF7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DB4303F502B0030EEF7 /* HomeViewModel.swift */; };
+		6E8C6E30303F502B0030EEF7 /* AppSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DA0303F502B0030EEF7 /* AppSpacing.swift */; };
+		6E8C6E31303F502B0030EEF7 /* LocalRecordingPlayerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DBF303F502B0030EEF7 /* LocalRecordingPlayerBar.swift */; };
+		6E8C6E32303F502B0030EEF7 /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DC8303F502B0030EEF7 /* ResetPasswordViewModel.swift */; };
+		6E8C6E33303F502B0030EEF7 /* DeviceInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D71303F502B0030EEF7 /* DeviceInfoProvider.swift */; };
+		6E8C6E34303F502B0030EEF7 /* AppDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D68303F502B0030EEF7 /* AppDependencyContainer.swift */; };
+		6E8C6E35303F502B0030EEF7 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D90303F502B0030EEF7 /* EmptyStateView.swift */; };
+		6E8C6E36303F502B0030EEF7 /* TelecomScreenLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D9A303F502B0030EEF7 /* TelecomScreenLayout.swift */; };
+		6E8C6E37303F502B0030EEF7 /* MeetingRecordingNoticeDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D94303F502B0030EEF7 /* MeetingRecordingNoticeDialog.swift */; };
+		6E8C6E38303F502B0030EEF7 /* HostUnavailableExit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D7D303F502B0030EEF7 /* HostUnavailableExit.swift */; };
+		6E8C6E39303F502B0030EEF7 /* ZoomRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DA6303F502B0030EEF7 /* ZoomRepositoryProtocol.swift */; };
+		6E8C6E3A303F502B0030EEF7 /* LocalRecordingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DC5303F502B0030EEF7 /* LocalRecordingsViewModel.swift */; };
+		6E8C6E3B303F502B0030EEF7 /* RecordingsRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DA5303F502B0030EEF7 /* RecordingsRepositoryProtocol.swift */; };
+		6E8C6E3C303F502B0030EEF7 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D88303F502B0030EEF7 /* AuthService.swift */; };
+		6E8C6E3D303F502B0030EEF7 /* LocalRecordingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DC4303F502B0030EEF7 /* LocalRecordingsView.swift */; };
+		6E8C6E3E303F502B0030EEF7 /* HostMeetingSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D6E303F502B0030EEF7 /* HostMeetingSettingsStore.swift */; };
+		6E8C6E3F303F502B0030EEF7 /* LocalRecordingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D7F303F502B0030EEF7 /* LocalRecordingModels.swift */; };
+		6E8C6E40303F502B0030EEF7 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D6D303F502B0030EEF7 /* AppEnvironment.swift */; };
+		6E8C6E41303F502B0030EEF7 /* LocalRecordingRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DAD303F502B0030EEF7 /* LocalRecordingRecorder.swift */; };
+		6E8C6E42303F502B0030EEF7 /* ZoomRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D86303F502B0030EEF7 /* ZoomRepository.swift */; };
+		6E8C6E43303F502B0030EEF7 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D78303F502B0030EEF7 /* RequestBuilder.swift */; };
+		6E8C6E44303F502B0030EEF7 /* SecureTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D99303F502B0030EEF7 /* SecureTextField.swift */; };
+		6E8C6E45303F502B0030EEF7 /* ProfileImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DAA303F502B0030EEF7 /* ProfileImageLoader.swift */; };
+		6E8C6E46303F502B0030EEF7 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D9F303F502B0030EEF7 /* AppFonts.swift */; };
+		6E8C6E47303F502B0030EEF7 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D80303F502B0030EEF7 /* LoginModels.swift */; };
+		6E8C6E48303F502B0030EEF7 /* ZoomInitializationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DCD303F502B0030EEF7 /* ZoomInitializationView.swift */; };
+		6E8C6E49303F502B0030EEF7 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D96303F502B0030EEF7 /* PrimaryButton.swift */; };
+		6E8C6E4A303F502B0030EEF7 /* RecordingsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D85303F502B0030EEF7 /* RecordingsRepository.swift */; };
+		6E8C6E4B303F502B0030EEF7 /* LocalRecordingsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DC2303F502B0030EEF7 /* LocalRecordingsListViewModel.swift */; };
+		6E8C6E4C303F502B0030EEF7 /* TelecomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D6B303F502B0030EEF7 /* TelecomApp.swift */; };
+		6E8C6E4D303F502B0030EEF7 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D75303F502B0030EEF7 /* APIEndpoint.swift */; };
+		6E8C6E4E303F502B0030EEF7 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DCA303F502B0030EEF7 /* SplashView.swift */; };
+		6E8C6E4F303F502B0030EEF7 /* CloudRecordingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DBD303F502B0030EEF7 /* CloudRecordingsView.swift */; };
+		6E8C6E50303F502B0030EEF7 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D76303F502B0030EEF7 /* HTTPMethod.swift */; };
+		6E8C6E51303F502B0030EEF7 /* LocalRecordingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DC1303F502B0030EEF7 /* LocalRecordingsListView.swift */; };
+		6E8C6E52303F502B0030EEF7 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DB7303F502B0030EEF7 /* LoginViewModel.swift */; };
+		6E8C6E53303F502B0030EEF7 /* ZoomInitializationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DCE303F502B0030EEF7 /* ZoomInitializationViewModel.swift */; };
+		6E8C6E54303F502B0030EEF7 /* CloudRecordingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DBE303F502B0030EEF7 /* CloudRecordingsViewModel.swift */; };
+		6E8C6E55303F502B0030EEF7 /* ZoomTokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D8B303F502B0030EEF7 /* ZoomTokenService.swift */; };
+		6E8C6E56303F502B0030EEF7 /* ZoomMeetingStatusScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D9C303F502B0030EEF7 /* ZoomMeetingStatusScreen.swift */; };
+		6E8C6E57303F502B0030EEF7 /* LocalRecordingsSheetContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DC3303F502B0030EEF7 /* LocalRecordingsSheetContent.swift */; };
+		6E8C6E58303F502B0030EEF7 /* TelecomToastBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D9B303F502B0030EEF7 /* TelecomToastBanner.swift */; };
+		6E8C6E59303F502B0030EEF7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DB3303F502B0030EEF7 /* HomeView.swift */; };
+		6E8C6E5A303F502B0030EEF7 /* LocalRecordingPlaybackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DAC303F502B0030EEF7 /* LocalRecordingPlaybackController.swift */; };
+		6E8C6E5B303F502B0030EEF7 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D91303F502B0030EEF7 /* ErrorView.swift */; };
+		6E8C6E5C303F502B0030EEF7 /* LocalRecordingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DC0303F502B0030EEF7 /* LocalRecordingRowView.swift */; };
+		6E8C6E5D303F502B0030EEF7 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DB9303F502B0030EEF7 /* MeetingView.swift */; };
+		6E8C6E5E303F502B0030EEF7 /* AppLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D8E303F502B0030EEF7 /* AppLogoView.swift */; };
+		6E8C6E5F303F502B0030EEF7 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D69303F502B0030EEF7 /* AppRouter.swift */; };
+		6E8C6E60303F502B0030EEF7 /* HostStatusBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D92303F502B0030EEF7 /* HostStatusBanner.swift */; };
+		6E8C6E61303F502B0030EEF7 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D74303F502B0030EEF7 /* APIClient.swift */; };
+		6E8C6E62303F502B0030EEF7 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D93303F502B0030EEF7 /* LoadingView.swift */; };
+		6E8C6E63303F502B0030EEF7 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D6A303F502B0030EEF7 /* RootView.swift */; };
+		6E8C6E64303F502B0030EEF7 /* SystemVolumeBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D72303F502B0030EEF7 /* SystemVolumeBridge.swift */; };
+		6E8C6E66303F502B0030EEF7 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D7A303F502B0030EEF7 /* KeychainManager.swift */; };
+		6E8C6E67303F502B0030EEF7 /* LocalMeetingSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D6F303F502B0030EEF7 /* LocalMeetingSettingsStore.swift */; };
+		6E8C6E68303F502B0030EEF7 /* AudioMeetingServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DA3303F502B0030EEF7 /* AudioMeetingServiceProtocol.swift */; };
+		6E8C6E69303F502B0030EEF7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D77303F502B0030EEF7 /* NetworkError.swift */; };
+		6E8C6E6A303F502B0030EEF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D67303F502B0030EEF7 /* AppDelegate.swift */; };
+		6E8C6E6B303F502B0030EEF7 /* ResetPasswordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D8A303F502B0030EEF7 /* ResetPasswordService.swift */; };
+		6E8C6E6C303F502B0030EEF7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DB6303F502B0030EEF7 /* LoginView.swift */; };
+		6E8C6E6D303F502B0030EEF7 /* MeetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DBA303F502B0030EEF7 /* MeetingViewModel.swift */; };
+		6E8C6E6E303F502B0030EEF7 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D98303F502B0030EEF7 /* SecondaryButton.swift */; };
+		6E8C6E6F303F502B0030EEF7 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DC7303F502B0030EEF7 /* ResetPasswordView.swift */; };
+		6E8C6E70303F502B0030EEF7 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D8F303F502B0030EEF7 /* CustomTextField.swift */; };
+		6E8C6E71303F502B0030EEF7 /* ZoomSDKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DB0303F502B0030EEF7 /* ZoomSDKManager.swift */; };
+		6E8C6E72303F502B0030EEF7 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D7B303F502B0030EEF7 /* SessionManager.swift */; };
+		6E8C6E73303F502B0030EEF7 /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D84303F502B0030EEF7 /* AuthRepository.swift */; };
+		6E8C6E74303F502B0030EEF7 /* ZoomModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D82303F502B0030EEF7 /* ZoomModels.swift */; };
+		6E8C6E75303F502B0030EEF7 /* RecordingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D81303F502B0030EEF7 /* RecordingModels.swift */; };
+		6E8C6E76303F502B0030EEF7 /* CloudRecordingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6D89303F502B0030EEF7 /* CloudRecordingsService.swift */; };
+		6E8C6E77303F502B0030EEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8C6DD2303F502B0030EEF7 /* Assets.xcassets */; };
+		6E8C6E78303F502B0030EEF7 /* MobileRTCResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E8C6DD4303F502B0030EEF7 /* MobileRTCResources.bundle */; };
+		6E8C6E79303F502B0030EEF7 /* zoomcml.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8C6DD5303F502B0030EEF7 /* zoomcml.xcframework */; };
+		6E8C6E7A303F502B0030EEF7 /* MobileRTC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8C6DD3303F502B0030EEF7 /* MobileRTC.xcframework */; };
+		6E8C6E7B303F502B0030EEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8C6DD2303F502B0030EEF7 /* Assets.xcassets */; };
+		6E8C6ECD303F507C0030EEF7 /* ZoomAudioMeetingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C6DAF303F502B0030EEF7 /* ZoomAudioMeetingService.swift */; };
+		6EFE98793012875400086740 /* MobileRTC_xcframework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFE98713012875400086740 /* MobileRTC_xcframework.framework */; };
+		6EFE987A3012875400086740 /* MobileRTC_xcframework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFE98713012875400086740 /* MobileRTC_xcframework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6EFE988D3012876300086740 /* MobileRTCResources_bundle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFE98853012876300086740 /* MobileRTCResources_bundle.framework */; };
+		6EFE988E3012876300086740 /* MobileRTCResources_bundle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFE98853012876300086740 /* MobileRTCResources_bundle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7A51E0013050000000000001 /* SirenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A51E0023050000000000001 /* SirenManager.swift */; };
+		7A51E0053050000000000001 /* Siren in Frameworks */ = {isa = PBXBuildFile; productRef = 7A51E0043050000000000001 /* Siren */; };
+		7A51E0073050000000000001 /* AppUpdateDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A51E0083050000000000001 /* AppUpdateDialog.swift */; };
+		7A51E0093050000000000001 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 7A51E00B3050000000000001 /* OneSignalFramework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EFE98773012875400086740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D86E2C300E910100F57AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EFE98703012875400086740;
+			remoteInfo = MobileRTC.xcframework;
+		};
+		6EFE988B3012876300086740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D86E2C300E910100F57AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EFE98843012876300086740;
+			remoteInfo = MobileRTCResources.bundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6EFE987F3012875400086740 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6EFE988E3012876300086740 /* MobileRTCResources_bundle.framework in Embed Frameworks */,
+				6EFE987A3012875400086740 /* MobileRTC_xcframework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6E8C6D67303F502B0030EEF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E8C6D68303F502B0030EEF7 /* AppDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencyContainer.swift; sourceTree = "<group>"; };
+		6E8C6D69303F502B0030EEF7 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		6E8C6D6A303F502B0030EEF7 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		6E8C6D6B303F502B0030EEF7 /* TelecomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelecomApp.swift; sourceTree = "<group>"; };
+		6E8C6D6D303F502B0030EEF7 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		6E8C6D6E303F502B0030EEF7 /* HostMeetingSettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostMeetingSettingsStore.swift; sourceTree = "<group>"; };
+		6E8C6D6F303F502B0030EEF7 /* LocalMeetingSettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMeetingSettingsStore.swift; sourceTree = "<group>"; };
+		6E8C6D71303F502B0030EEF7 /* DeviceInfoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoProvider.swift; sourceTree = "<group>"; };
+		6E8C6D72303F502B0030EEF7 /* SystemVolumeBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemVolumeBridge.swift; sourceTree = "<group>"; };
+		6E8C6D74303F502B0030EEF7 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		6E8C6D75303F502B0030EEF7 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		6E8C6D76303F502B0030EEF7 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		6E8C6D77303F502B0030EEF7 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		6E8C6D78303F502B0030EEF7 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		6E8C6D7A303F502B0030EEF7 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		6E8C6D7B303F502B0030EEF7 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		6E8C6D7D303F502B0030EEF7 /* HostUnavailableExit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostUnavailableExit.swift; sourceTree = "<group>"; };
+		6E8C6D7F303F502B0030EEF7 /* LocalRecordingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRecordingModels.swift; sourceTree = "<group>"; };
+		6E8C6D80303F502B0030EEF7 /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		6E8C6D81303F502B0030EEF7 /* RecordingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingModels.swift; sourceTree = "<group>"; };
+		6E8C6D82303F502B0030EEF7 /* ZoomModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomModels.swift; sourceTree = "<group>"; };
+		6E8C6D84303F502B0030EEF7 /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		6E8C6D85303F502B0030EEF7 /* RecordingsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsRepository.swift; sourceTree = "<group>"; };
+		6E8C6D86303F502B0030EEF7 /* ZoomRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomRepository.swift; sourceTree = "<group>"; };
+		6E8C6D88303F502B0030EEF7 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		6E8C6D89303F502B0030EEF7 /* CloudRecordingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudRecordingsService.swift; sourceTree = "<group>"; };
+		6E8C6D8A303F502B0030EEF7 /* ResetPasswordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordService.swift; sourceTree = "<group>"; };
+		6E8C6D8B303F502B0030EEF7 /* ZoomTokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomTokenService.swift; sourceTree = "<group>"; };
+		6E8C6D8E303F502B0030EEF7 /* AppLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogoView.swift; sourceTree = "<group>"; };
+		6E8C6D8F303F502B0030EEF7 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		6E8C6D90303F502B0030EEF7 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		6E8C6D91303F502B0030EEF7 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		6E8C6D92303F502B0030EEF7 /* HostStatusBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostStatusBanner.swift; sourceTree = "<group>"; };
+		6E8C6D93303F502B0030EEF7 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		6E8C6D94303F502B0030EEF7 /* MeetingRecordingNoticeDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRecordingNoticeDialog.swift; sourceTree = "<group>"; };
+		6E8C6D95303F502B0030EEF7 /* NetworkSignalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSignalView.swift; sourceTree = "<group>"; };
+		6E8C6D96303F502B0030EEF7 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		6E8C6D97303F502B0030EEF7 /* ScrollingMarqueeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingMarqueeText.swift; sourceTree = "<group>"; };
+		6E8C6D98303F502B0030EEF7 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		6E8C6D99303F502B0030EEF7 /* SecureTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextField.swift; sourceTree = "<group>"; };
+		6E8C6D9A303F502B0030EEF7 /* TelecomScreenLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelecomScreenLayout.swift; sourceTree = "<group>"; };
+		6E8C6D9B303F502B0030EEF7 /* TelecomToastBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelecomToastBanner.swift; sourceTree = "<group>"; };
+		6E8C6D9C303F502B0030EEF7 /* ZoomMeetingStatusScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomMeetingStatusScreen.swift; sourceTree = "<group>"; };
+		6E8C6D9E303F502B0030EEF7 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		6E8C6D9F303F502B0030EEF7 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		6E8C6DA0303F502B0030EEF7 /* AppSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSpacing.swift; sourceTree = "<group>"; };
+		6E8C6DA3303F502B0030EEF7 /* AudioMeetingServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMeetingServiceProtocol.swift; sourceTree = "<group>"; };
+		6E8C6DA4303F502B0030EEF7 /* AuthRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryProtocol.swift; sourceTree = "<group>"; };
+		6E8C6DA5303F502B0030EEF7 /* RecordingsRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsRepositoryProtocol.swift; sourceTree = "<group>"; };
+		6E8C6DA6303F502B0030EEF7 /* ZoomRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomRepositoryProtocol.swift; sourceTree = "<group>"; };
+		6E8C6DAA303F502B0030EEF7 /* ProfileImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageLoader.swift; sourceTree = "<group>"; };
+		6E8C6DAC303F502B0030EEF7 /* LocalRecordingPlaybackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRecordingPlaybackController.swift; sourceTree = "<group>"; };
+		6E8C6DAD303F502B0030EEF7 /* LocalRecordingRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRecordingRecorder.swift; sourceTree = "<group>"; };
+		6E8C6DAF303F502B0030EEF7 /* ZoomAudioMeetingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAudioMeetingService.swift; sourceTree = "<group>"; };
+		6E8C6DB0303F502B0030EEF7 /* ZoomSDKManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomSDKManager.swift; sourceTree = "<group>"; };
+		6E8C6DB3303F502B0030EEF7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6E8C6DB4303F502B0030EEF7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6E8C6DB6303F502B0030EEF7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6E8C6DB7303F502B0030EEF7 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		6E8C6DB9303F502B0030EEF7 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		6E8C6DBA303F502B0030EEF7 /* MeetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewModel.swift; sourceTree = "<group>"; };
+		6E8C6DBC303F502B0030EEF7 /* CloudRecordingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudRecordingCardView.swift; sourceTree = "<group>"; };
+		6E8C6DBD303F502B0030EEF7 /* CloudRecordingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudRecordingsView.swift; sourceTree = "<group>"; };
+		6E8C6DBE303F502B0030EEF7 /* CloudRecordingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudRecordingsViewModel.swift; sourceTree = "<group>"; };
+		6E8C6DBF303F502B0030EEF7 /* LocalRecordingPlayerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRecordingPlayerBar.swift; sourceTree = "<group>"; };
+		6E8C6DC0303F502B0030EEF7 /* LocalRecordingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRecordingRowView.swift; sourceTree = "<group>"; };
+		6E8C6DC1303F502B0030EEF7 /* LocalRecordingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRecordingsListView.swift; sourceTree = "<group>"; };
+		6E8C6DC2303F502B0030EEF7 /* LocalRecordingsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRecordingsListViewModel.swift; sourceTree = "<group>"; };
+		6E8C6DC3303F502B0030EEF7 /* LocalRecordingsSheetContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRecordingsSheetContent.swift; sourceTree = "<group>"; };
+		6E8C6DC4303F502B0030EEF7 /* LocalRecordingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRecordingsView.swift; sourceTree = "<group>"; };
+		6E8C6DC5303F502B0030EEF7 /* LocalRecordingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRecordingsViewModel.swift; sourceTree = "<group>"; };
+		6E8C6DC7303F502B0030EEF7 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		6E8C6DC8303F502B0030EEF7 /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
+		6E8C6DCA303F502B0030EEF7 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		6E8C6DCB303F502B0030EEF7 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		6E8C6DCD303F502B0030EEF7 /* ZoomInitializationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomInitializationView.swift; sourceTree = "<group>"; };
+		6E8C6DCE303F502B0030EEF7 /* ZoomInitializationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomInitializationViewModel.swift; sourceTree = "<group>"; };
+		6E8C6DD2303F502B0030EEF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E8C6DD3303F502B0030EEF7 /* MobileRTC.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BJ4HAAB9B3:Zoom Communications, Inc."; lastKnownFileType = wrapper.xcframework; path = MobileRTC.xcframework; sourceTree = "<group>"; };
+		6E8C6DD4303F502B0030EEF7 /* MobileRTCResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MobileRTCResources.bundle; sourceTree = "<group>"; };
+		6E8C6DD5303F502B0030EEF7 /* zoomcml.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:BJ4HAAB9B3:Zoom Communications, Inc."; lastKnownFileType = wrapper.xcframework; path = zoomcml.xcframework; sourceTree = "<group>"; };
+		6EFE98713012875400086740 /* MobileRTC_xcframework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobileRTC_xcframework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFE98853012876300086740 /* MobileRTCResources_bundle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobileRTCResources_bundle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A51E0023050000000000001 /* SirenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirenManager.swift; sourceTree = "<group>"; };
+		7A51E0083050000000000001 /* AppUpdateDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUpdateDialog.swift; sourceTree = "<group>"; };
+		E7D86E34300E910100F57AE2 /* TelecomAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelecomAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6EFE987B3012875400086740 /* Exceptions for "MobileRTC.xcframework" folder in "MobileRTC.xcframework" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				MobileRTC_xcframework.h,
+			);
+			target = 6EFE98703012875400086740 /* MobileRTC.xcframework */;
+		};
+		6EFE988F3012876300086740 /* Exceptions for "MobileRTCResources.bundle" folder in "MobileRTCResources.bundle" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				MobileRTCResources_bundle.h,
+			);
+			target = 6EFE98843012876300086740 /* MobileRTCResources.bundle */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6EFE98723012875400086740 /* MobileRTC.xcframework */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6EFE987B3012875400086740 /* Exceptions for "MobileRTC.xcframework" folder in "MobileRTC.xcframework" target */,
+			);
+			path = MobileRTC.xcframework;
+			sourceTree = "<group>";
+		};
+		6EFE98863012876300086740 /* MobileRTCResources.bundle */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6EFE988F3012876300086740 /* Exceptions for "MobileRTCResources.bundle" folder in "MobileRTCResources.bundle" target */,
+			);
+			path = MobileRTCResources.bundle;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EFE986E3012875400086740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFE98823012876300086740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D86E31300E910100F57AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFE988D3012876300086740 /* MobileRTCResources_bundle.framework in Frameworks */,
+				6E8C6E79303F502B0030EEF7 /* zoomcml.xcframework in Frameworks */,
+				6E8C6E7A303F502B0030EEF7 /* MobileRTC.xcframework in Frameworks */,
+				6EFE98793012875400086740 /* MobileRTC_xcframework.framework in Frameworks */,
+				7A51E0053050000000000001 /* Siren in Frameworks */,
+				7A51E0093050000000000001 /* OneSignalFramework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E8C6D6C303F502B0030EEF7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6D67303F502B0030EEF7 /* AppDelegate.swift */,
+				6E8C6D68303F502B0030EEF7 /* AppDependencyContainer.swift */,
+				6E8C6D69303F502B0030EEF7 /* AppRouter.swift */,
+				6E8C6D6A303F502B0030EEF7 /* RootView.swift */,
+				6E8C6D6B303F502B0030EEF7 /* TelecomApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6E8C6D70303F502B0030EEF7 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6D6D303F502B0030EEF7 /* AppEnvironment.swift */,
+				6E8C6D6E303F502B0030EEF7 /* HostMeetingSettingsStore.swift */,
+				6E8C6D6F303F502B0030EEF7 /* LocalMeetingSettingsStore.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		6E8C6D73303F502B0030EEF7 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6D71303F502B0030EEF7 /* DeviceInfoProvider.swift */,
+				6E8C6D72303F502B0030EEF7 /* SystemVolumeBridge.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		6E8C6D79303F502B0030EEF7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6D74303F502B0030EEF7 /* APIClient.swift */,
+				6E8C6D75303F502B0030EEF7 /* APIEndpoint.swift */,
+				6E8C6D76303F502B0030EEF7 /* HTTPMethod.swift */,
+				6E8C6D77303F502B0030EEF7 /* NetworkError.swift */,
+				6E8C6D78303F502B0030EEF7 /* RequestBuilder.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6E8C6D7C303F502B0030EEF7 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6D7A303F502B0030EEF7 /* KeychainManager.swift */,
+				6E8C6D7B303F502B0030EEF7 /* SessionManager.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		6E8C6D7E303F502B0030EEF7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6D70303F502B0030EEF7 /* Config */,
+				6E8C6D73303F502B0030EEF7 /* Device */,
+				6E8C6D79303F502B0030EEF7 /* Networking */,
+				6E8C6D7C303F502B0030EEF7 /* Security */,
+				6E8C6D7D303F502B0030EEF7 /* HostUnavailableExit.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6E8C6D83303F502B0030EEF7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6D7F303F502B0030EEF7 /* LocalRecordingModels.swift */,
+				6E8C6D80303F502B0030EEF7 /* LoginModels.swift */,
+				6E8C6D81303F502B0030EEF7 /* RecordingModels.swift */,
+				6E8C6D82303F502B0030EEF7 /* ZoomModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6E8C6D87303F502B0030EEF7 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6D84303F502B0030EEF7 /* AuthRepository.swift */,
+				6E8C6D85303F502B0030EEF7 /* RecordingsRepository.swift */,
+				6E8C6D86303F502B0030EEF7 /* ZoomRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6E8C6D8C303F502B0030EEF7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6D88303F502B0030EEF7 /* AuthService.swift */,
+				6E8C6D89303F502B0030EEF7 /* CloudRecordingsService.swift */,
+				6E8C6D8A303F502B0030EEF7 /* ResetPasswordService.swift */,
+				6E8C6D8B303F502B0030EEF7 /* ZoomTokenService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6E8C6D8D303F502B0030EEF7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6D83303F502B0030EEF7 /* Models */,
+				6E8C6D87303F502B0030EEF7 /* Repositories */,
+				6E8C6D8C303F502B0030EEF7 /* Services */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6E8C6D9D303F502B0030EEF7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6D8E303F502B0030EEF7 /* AppLogoView.swift */,
+				7A51E0083050000000000001 /* AppUpdateDialog.swift */,
+				6E8C6D8F303F502B0030EEF7 /* CustomTextField.swift */,
+				6E8C6D90303F502B0030EEF7 /* EmptyStateView.swift */,
+				6E8C6D91303F502B0030EEF7 /* ErrorView.swift */,
+				6E8C6D92303F502B0030EEF7 /* HostStatusBanner.swift */,
+				6E8C6D93303F502B0030EEF7 /* LoadingView.swift */,
+				6E8C6D94303F502B0030EEF7 /* MeetingRecordingNoticeDialog.swift */,
+				6E8C6D95303F502B0030EEF7 /* NetworkSignalView.swift */,
+				6E8C6D96303F502B0030EEF7 /* PrimaryButton.swift */,
+				6E8C6D97303F502B0030EEF7 /* ScrollingMarqueeText.swift */,
+				6E8C6D98303F502B0030EEF7 /* SecondaryButton.swift */,
+				6E8C6D99303F502B0030EEF7 /* SecureTextField.swift */,
+				6E8C6D9A303F502B0030EEF7 /* TelecomScreenLayout.swift */,
+				6E8C6D9B303F502B0030EEF7 /* TelecomToastBanner.swift */,
+				6E8C6D9C303F502B0030EEF7 /* ZoomMeetingStatusScreen.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6E8C6DA1303F502B0030EEF7 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6D9E303F502B0030EEF7 /* AppColors.swift */,
+				6E8C6D9F303F502B0030EEF7 /* AppFonts.swift */,
+				6E8C6DA0303F502B0030EEF7 /* AppSpacing.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		6E8C6DA2303F502B0030EEF7 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6D9D303F502B0030EEF7 /* Components */,
+				6E8C6DA1303F502B0030EEF7 /* Theme */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		6E8C6DA7303F502B0030EEF7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6DA3303F502B0030EEF7 /* AudioMeetingServiceProtocol.swift */,
+				6E8C6DA4303F502B0030EEF7 /* AuthRepositoryProtocol.swift */,
+				6E8C6DA5303F502B0030EEF7 /* RecordingsRepositoryProtocol.swift */,
+				6E8C6DA6303F502B0030EEF7 /* ZoomRepositoryProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6E8C6DA8303F502B0030EEF7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6DA7303F502B0030EEF7 /* Protocols */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		6E8C6DA9303F502B0030EEF7 /* CallKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CallKit;
+			sourceTree = "<group>";
+		};
+		6E8C6DAB303F502B0030EEF7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6DAA303F502B0030EEF7 /* ProfileImageLoader.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6E8C6DAE303F502B0030EEF7 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6DAC303F502B0030EEF7 /* LocalRecordingPlaybackController.swift */,
+				6E8C6DAD303F502B0030EEF7 /* LocalRecordingRecorder.swift */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+		6E8C6DB1303F502B0030EEF7 /* Zoom */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6DAF303F502B0030EEF7 /* ZoomAudioMeetingService.swift */,
+				6E8C6DB0303F502B0030EEF7 /* ZoomSDKManager.swift */,
+			);
+			path = Zoom;
+			sourceTree = "<group>";
+		};
+		6E8C6DB2303F502B0030EEF7 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				7A51E0063050000000000001 /* AppUpdate */,
+				6E8C6DA9303F502B0030EEF7 /* CallKit */,
+				6E8C6DAB303F502B0030EEF7 /* Networking */,
+				6E8C6DAE303F502B0030EEF7 /* Recording */,
+				6E8C6DB1303F502B0030EEF7 /* Zoom */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		6E8C6DB5303F502B0030EEF7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6DB3303F502B0030EEF7 /* HomeView.swift */,
+				6E8C6DB4303F502B0030EEF7 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6E8C6DB8303F502B0030EEF7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6DB6303F502B0030EEF7 /* LoginView.swift */,
+				6E8C6DB7303F502B0030EEF7 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6E8C6DBB303F502B0030EEF7 /* Meeting */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6DB9303F502B0030EEF7 /* MeetingView.swift */,
+				6E8C6DBA303F502B0030EEF7 /* MeetingViewModel.swift */,
+			);
+			path = Meeting;
+			sourceTree = "<group>";
+		};
+		6E8C6DC6303F502B0030EEF7 /* Recordings */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6DBC303F502B0030EEF7 /* CloudRecordingCardView.swift */,
+				6E8C6DBD303F502B0030EEF7 /* CloudRecordingsView.swift */,
+				6E8C6DBE303F502B0030EEF7 /* CloudRecordingsViewModel.swift */,
+				6E8C6DBF303F502B0030EEF7 /* LocalRecordingPlayerBar.swift */,
+				6E8C6DC0303F502B0030EEF7 /* LocalRecordingRowView.swift */,
+				6E8C6DC1303F502B0030EEF7 /* LocalRecordingsListView.swift */,
+				6E8C6DC2303F502B0030EEF7 /* LocalRecordingsListViewModel.swift */,
+				6E8C6DC3303F502B0030EEF7 /* LocalRecordingsSheetContent.swift */,
+				6E8C6DC4303F502B0030EEF7 /* LocalRecordingsView.swift */,
+				6E8C6DC5303F502B0030EEF7 /* LocalRecordingsViewModel.swift */,
+			);
+			path = Recordings;
+			sourceTree = "<group>";
+		};
+		6E8C6DC9303F502B0030EEF7 /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6DC7303F502B0030EEF7 /* ResetPasswordView.swift */,
+				6E8C6DC8303F502B0030EEF7 /* ResetPasswordViewModel.swift */,
+			);
+			path = ResetPassword;
+			sourceTree = "<group>";
+		};
+		6E8C6DCC303F502B0030EEF7 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6DCA303F502B0030EEF7 /* SplashView.swift */,
+				6E8C6DCB303F502B0030EEF7 /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		6E8C6DCF303F502B0030EEF7 /* ZoomInitialization */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6DCD303F502B0030EEF7 /* ZoomInitializationView.swift */,
+				6E8C6DCE303F502B0030EEF7 /* ZoomInitializationViewModel.swift */,
+			);
+			path = ZoomInitialization;
+			sourceTree = "<group>";
+		};
+		6E8C6DD0303F502B0030EEF7 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6DB5303F502B0030EEF7 /* Home */,
+				6E8C6DB8303F502B0030EEF7 /* Login */,
+				6E8C6DBB303F502B0030EEF7 /* Meeting */,
+				6E8C6DC6303F502B0030EEF7 /* Recordings */,
+				6E8C6DC9303F502B0030EEF7 /* ResetPassword */,
+				6E8C6DCC303F502B0030EEF7 /* Splash */,
+				6E8C6DCF303F502B0030EEF7 /* ZoomInitialization */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		6E8C6DD1303F502B0030EEF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E8C6DD6303F502B0030EEF7 /* TelecomAudio */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C6D6C303F502B0030EEF7 /* App */,
+				6E8C6D7E303F502B0030EEF7 /* Core */,
+				6E8C6D8D303F502B0030EEF7 /* Data */,
+				6E8C6DA2303F502B0030EEF7 /* DesignSystem */,
+				6E8C6DA8303F502B0030EEF7 /* Domain */,
+				6E8C6DB2303F502B0030EEF7 /* Infrastructure */,
+				6E8C6DD0303F502B0030EEF7 /* Presentation */,
+				6E8C6DD1303F502B0030EEF7 /* Resources */,
+				6E8C6DD2303F502B0030EEF7 /* Assets.xcassets */,
+				6E8C6DD3303F502B0030EEF7 /* MobileRTC.xcframework */,
+				6E8C6DD4303F502B0030EEF7 /* MobileRTCResources.bundle */,
+				6E8C6DD5303F502B0030EEF7 /* zoomcml.xcframework */,
+			);
+			path = TelecomAudio;
+			sourceTree = "<group>";
+		};
+		7A51E0063050000000000001 /* AppUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				7A51E0023050000000000001 /* SirenManager.swift */,
+			);
+			path = AppUpdate;
+			sourceTree = "<group>";
+		};
+		E7D86E2B300E910100F57AE2 = {
+			isa = PBXGroup;
+			children = (
+				6E8C6DD6303F502B0030EEF7 /* TelecomAudio */,
+				6EFE98723012875400086740 /* MobileRTC.xcframework */,
+				6EFE98863012876300086740 /* MobileRTCResources.bundle */,
+				E7D86E35300E910100F57AE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7D86E35300E910100F57AE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7D86E34300E910100F57AE2 /* TelecomAudio.app */,
+				6EFE98713012875400086740 /* MobileRTC_xcframework.framework */,
+				6EFE98853012876300086740 /* MobileRTCResources_bundle.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EFE986C3012875400086740 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFE98803012876300086740 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6EFE98703012875400086740 /* MobileRTC.xcframework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EFE987C3012875400086740 /* Build configuration list for PBXNativeTarget "MobileRTC.xcframework" */;
+			buildPhases = (
+				6EFE986C3012875400086740 /* Headers */,
+				6EFE986D3012875400086740 /* Sources */,
+				6EFE986E3012875400086740 /* Frameworks */,
+				6EFE986F3012875400086740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6EFE98723012875400086740 /* MobileRTC.xcframework */,
+			);
+			name = MobileRTC.xcframework;
+			packageProductDependencies = (
+			);
+			productName = MobileRTC.xcframework;
+			productReference = 6EFE98713012875400086740 /* MobileRTC_xcframework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EFE98843012876300086740 /* MobileRTCResources.bundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EFE98903012876300086740 /* Build configuration list for PBXNativeTarget "MobileRTCResources.bundle" */;
+			buildPhases = (
+				6EFE98803012876300086740 /* Headers */,
+				6EFE98813012876300086740 /* Sources */,
+				6EFE98823012876300086740 /* Frameworks */,
+				6EFE98833012876300086740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6EFE98863012876300086740 /* MobileRTCResources.bundle */,
+			);
+			name = MobileRTCResources.bundle;
+			packageProductDependencies = (
+			);
+			productName = MobileRTCResources.bundle;
+			productReference = 6EFE98853012876300086740 /* MobileRTCResources_bundle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7D86E33300E910100F57AE2 /* TelecomAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D86E3F300E910200F57AE2 /* Build configuration list for PBXNativeTarget "TelecomAudio" */;
+			buildPhases = (
+				E7D86E30300E910100F57AE2 /* Sources */,
+				E7D86E31300E910100F57AE2 /* Frameworks */,
+				E7D86E32300E910100F57AE2 /* Resources */,
+				6EFE987F3012875400086740 /* Embed Frameworks */,
+				E7D86E50300E910200F57AE2 /* Embed Zoom SDK */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EFE98783012875400086740 /* PBXTargetDependency */,
+				6EFE988C3012876300086740 /* PBXTargetDependency */,
+			);
+			name = TelecomAudio;
+			packageProductDependencies = (
+				7A51E0043050000000000001 /* Siren */,
+				7A51E00B3050000000000001 /* OneSignalFramework */,
+			);
+			productName = TelecomAudio;
+			productReference = E7D86E34300E910100F57AE2 /* TelecomAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7D86E2C300E910100F57AE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					6EFE98703012875400086740 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6EFE98843012876300086740 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E7D86E33300E910100F57AE2 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = E7D86E2F300E910100F57AE2 /* Build configuration list for PBXProject "TelecomAudio" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7D86E2B300E910100F57AE2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7A51E0033050000000000001 /* XCRemoteSwiftPackageReference "Siren" */,
+				7A51E00A3050000000000001 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E7D86E35300E910100F57AE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7D86E33300E910100F57AE2 /* TelecomAudio */,
+				6EFE98703012875400086740 /* MobileRTC.xcframework */,
+				6EFE98843012876300086740 /* MobileRTCResources.bundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EFE986F3012875400086740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8C6DD7303F502B0030EEF7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFE98833012876300086740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8C6E7B303F502B0030EEF7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D86E32300E910100F57AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8C6E77303F502B0030EEF7 /* Assets.xcassets in Resources */,
+				6E8C6E78303F502B0030EEF7 /* MobileRTCResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E7D86E50300E910200F57AE2 /* Embed Zoom SDK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/TelecomAudio/MobileRTC.xcframework",
+				"$(SRCROOT)/TelecomAudio/zoomcml.xcframework",
+			);
+			name = "Embed Zoom SDK";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MobileRTC.framework",
+				"$(TARGET_BUILD_DIR)/$(FRAMEWORKS_FOLDER_PATH)/zoomcml.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -euo pipefail\n\nif [ \"${ACTION:-}\" = \"clean\" ]; then\n  exit 0\nfi\n\nFRAMEWORKS_FOLDER=\"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\nmkdir -p \"${FRAMEWORKS_FOLDER}\"\n\nif [ \"${PLATFORM_NAME}\" = \"iphonesimulator\" ]; then\n  SLICE=\"ios-arm64-simulator\"\nelse\n  SLICE=\"ios-arm64\"\nfi\n\nembed_framework() {\n  local xcframework_path=\"$1\"\n  local framework_name=\"$2\"\n  local source=\"${xcframework_path}/${SLICE}/${framework_name}\"\n  local destination=\"${FRAMEWORKS_FOLDER}/${framework_name}\"\n\n  if [ ! -d \"${source}\" ]; then\n    echo \"error: Missing ${source}\" >&2\n    exit 1\n  fi\n\n  rm -rf \"${destination}\"\n  cp -Rf \"${source}\" \"${destination}\"\n\n  if [ -n \"${EXPANDED_CODE_SIGN_IDENTITY:-}\" ] && [ \"${EXPANDED_CODE_SIGN_IDENTITY}\" != \"-\" ]; then\n    /usr/bin/codesign --force --sign \"${EXPANDED_CODE_SIGN_IDENTITY}\" \\\n      --preserve-metadata=identifier,entitlements,flags --timestamp=none \"${destination}\"\n  fi\n}\n\nembed_framework \"${SRCROOT}/TelecomAudio/MobileRTC.xcframework\" \"MobileRTC.framework\"\nembed_framework \"${SRCROOT}/TelecomAudio/zoomcml.xcframework\" \"zoomcml.framework\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EFE986D3012875400086740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFE98813012876300086740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D86E30300E910100F57AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8C6E29303F502B0030EEF7 /* NetworkSignalView.swift in Sources */,
+				6E8C6E2A303F502B0030EEF7 /* SplashViewModel.swift in Sources */,
+				6E8C6E2B303F502B0030EEF7 /* CloudRecordingCardView.swift in Sources */,
+				6E8C6E2C303F502B0030EEF7 /* AppColors.swift in Sources */,
+				6E8C6E2D303F502B0030EEF7 /* AuthRepositoryProtocol.swift in Sources */,
+				6E8C6E2E303F502B0030EEF7 /* ScrollingMarqueeText.swift in Sources */,
+				6E8C6E2F303F502B0030EEF7 /* HomeViewModel.swift in Sources */,
+				6E8C6E30303F502B0030EEF7 /* AppSpacing.swift in Sources */,
+				6E8C6E31303F502B0030EEF7 /* LocalRecordingPlayerBar.swift in Sources */,
+				6E8C6E32303F502B0030EEF7 /* ResetPasswordViewModel.swift in Sources */,
+				6E8C6E33303F502B0030EEF7 /* DeviceInfoProvider.swift in Sources */,
+				6E8C6E34303F502B0030EEF7 /* AppDependencyContainer.swift in Sources */,
+				6E8C6E35303F502B0030EEF7 /* EmptyStateView.swift in Sources */,
+				6E8C6E36303F502B0030EEF7 /* TelecomScreenLayout.swift in Sources */,
+				6E8C6E37303F502B0030EEF7 /* MeetingRecordingNoticeDialog.swift in Sources */,
+				6E8C6E38303F502B0030EEF7 /* HostUnavailableExit.swift in Sources */,
+				6E8C6E39303F502B0030EEF7 /* ZoomRepositoryProtocol.swift in Sources */,
+				6E8C6E3A303F502B0030EEF7 /* LocalRecordingsViewModel.swift in Sources */,
+				6E8C6E3B303F502B0030EEF7 /* RecordingsRepositoryProtocol.swift in Sources */,
+				6E8C6E3C303F502B0030EEF7 /* AuthService.swift in Sources */,
+				6E8C6E3D303F502B0030EEF7 /* LocalRecordingsView.swift in Sources */,
+				6E8C6E3E303F502B0030EEF7 /* HostMeetingSettingsStore.swift in Sources */,
+				6E8C6E3F303F502B0030EEF7 /* LocalRecordingModels.swift in Sources */,
+				6E8C6E40303F502B0030EEF7 /* AppEnvironment.swift in Sources */,
+				6E8C6E41303F502B0030EEF7 /* LocalRecordingRecorder.swift in Sources */,
+				6E8C6E42303F502B0030EEF7 /* ZoomRepository.swift in Sources */,
+				6E8C6E43303F502B0030EEF7 /* RequestBuilder.swift in Sources */,
+				6E8C6E44303F502B0030EEF7 /* SecureTextField.swift in Sources */,
+				6E8C6E45303F502B0030EEF7 /* ProfileImageLoader.swift in Sources */,
+				6E8C6E46303F502B0030EEF7 /* AppFonts.swift in Sources */,
+				6E8C6E47303F502B0030EEF7 /* LoginModels.swift in Sources */,
+				6E8C6ECD303F507C0030EEF7 /* ZoomAudioMeetingService.swift in Sources */,
+				7A51E0013050000000000001 /* SirenManager.swift in Sources */,
+				7A51E0073050000000000001 /* AppUpdateDialog.swift in Sources */,
+				6E8C6E48303F502B0030EEF7 /* ZoomInitializationView.swift in Sources */,
+				6E8C6E49303F502B0030EEF7 /* PrimaryButton.swift in Sources */,
+				6E8C6E4A303F502B0030EEF7 /* RecordingsRepository.swift in Sources */,
+				6E8C6E4B303F502B0030EEF7 /* LocalRecordingsListViewModel.swift in Sources */,
+				6E8C6E4C303F502B0030EEF7 /* TelecomApp.swift in Sources */,
+				6E8C6E4D303F502B0030EEF7 /* APIEndpoint.swift in Sources */,
+				6E8C6E4E303F502B0030EEF7 /* SplashView.swift in Sources */,
+				6E8C6E4F303F502B0030EEF7 /* CloudRecordingsView.swift in Sources */,
+				6E8C6E50303F502B0030EEF7 /* HTTPMethod.swift in Sources */,
+				6E8C6E51303F502B0030EEF7 /* LocalRecordingsListView.swift in Sources */,
+				6E8C6E52303F502B0030EEF7 /* LoginViewModel.swift in Sources */,
+				6E8C6E53303F502B0030EEF7 /* ZoomInitializationViewModel.swift in Sources */,
+				6E8C6E54303F502B0030EEF7 /* CloudRecordingsViewModel.swift in Sources */,
+				6E8C6E55303F502B0030EEF7 /* ZoomTokenService.swift in Sources */,
+				6E8C6E56303F502B0030EEF7 /* ZoomMeetingStatusScreen.swift in Sources */,
+				6E8C6E57303F502B0030EEF7 /* LocalRecordingsSheetContent.swift in Sources */,
+				6E8C6E58303F502B0030EEF7 /* TelecomToastBanner.swift in Sources */,
+				6E8C6E59303F502B0030EEF7 /* HomeView.swift in Sources */,
+				6E8C6E5A303F502B0030EEF7 /* LocalRecordingPlaybackController.swift in Sources */,
+				6E8C6E5B303F502B0030EEF7 /* ErrorView.swift in Sources */,
+				6E8C6E5C303F502B0030EEF7 /* LocalRecordingRowView.swift in Sources */,
+				6E8C6E5D303F502B0030EEF7 /* MeetingView.swift in Sources */,
+				6E8C6E5E303F502B0030EEF7 /* AppLogoView.swift in Sources */,
+				6E8C6E5F303F502B0030EEF7 /* AppRouter.swift in Sources */,
+				6E8C6E60303F502B0030EEF7 /* HostStatusBanner.swift in Sources */,
+				6E8C6E61303F502B0030EEF7 /* APIClient.swift in Sources */,
+				6E8C6E62303F502B0030EEF7 /* LoadingView.swift in Sources */,
+				6E8C6E63303F502B0030EEF7 /* RootView.swift in Sources */,
+				6E8C6E64303F502B0030EEF7 /* SystemVolumeBridge.swift in Sources */,
+				6E8C6E66303F502B0030EEF7 /* KeychainManager.swift in Sources */,
+				6E8C6E67303F502B0030EEF7 /* LocalMeetingSettingsStore.swift in Sources */,
+				6E8C6E68303F502B0030EEF7 /* AudioMeetingServiceProtocol.swift in Sources */,
+				6E8C6E69303F502B0030EEF7 /* NetworkError.swift in Sources */,
+				6E8C6E6A303F502B0030EEF7 /* AppDelegate.swift in Sources */,
+				6E8C6E6B303F502B0030EEF7 /* ResetPasswordService.swift in Sources */,
+				6E8C6E6C303F502B0030EEF7 /* LoginView.swift in Sources */,
+				6E8C6E6D303F502B0030EEF7 /* MeetingViewModel.swift in Sources */,
+				6E8C6E6E303F502B0030EEF7 /* SecondaryButton.swift in Sources */,
+				6E8C6E6F303F502B0030EEF7 /* ResetPasswordView.swift in Sources */,
+				6E8C6E70303F502B0030EEF7 /* CustomTextField.swift in Sources */,
+				6E8C6E71303F502B0030EEF7 /* ZoomSDKManager.swift in Sources */,
+				6E8C6E72303F502B0030EEF7 /* SessionManager.swift in Sources */,
+				6E8C6E73303F502B0030EEF7 /* AuthRepository.swift in Sources */,
+				6E8C6E74303F502B0030EEF7 /* ZoomModels.swift in Sources */,
+				6E8C6E75303F502B0030EEF7 /* RecordingModels.swift in Sources */,
+				6E8C6E76303F502B0030EEF7 /* CloudRecordingsService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EFE98783012875400086740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EFE98703012875400086740 /* MobileRTC.xcframework */;
+			targetProxy = 6EFE98773012875400086740 /* PBXContainerItemProxy */;
+		};
+		6EFE988C3012876300086740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EFE98843012876300086740 /* MobileRTCResources.bundle */;
+			targetProxy = 6EFE988B3012876300086740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6EFE987D3012875400086740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7D6JJ886DD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.MobileRTC-xcframework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EFE987E3012875400086740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7D6JJ886DD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.MobileRTC-xcframework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6EFE98913012876300086740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7D6JJ886DD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.MobileRTCResources-bundle";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EFE98923012876300086740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7D6JJ886DD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.MobileRTCResources-bundle";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7D86E3D300E910200F57AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7D6JJ886DD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7D86E3E300E910200F57AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7D6JJ886DD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E7D86E40300E910200F57AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APS_ENVIRONMENT = development;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/TelecomAudio.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D6JJ886DD;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Telecom Audio";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "TELECOM does not access your calendar. This permission is only referenced by the bundled Zoom Meeting SDK for optional meeting scheduling.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "TELECOM does not access your calendar. This permission is only referenced by the bundled Zoom Meeting SDK for optional meeting scheduling.";
+				INFOPLIST_KEY_NSCalendarsWriteOnlyAccessUsageDescription = "TELECOM does not access your calendar. This permission is only referenced by the bundled Zoom Meeting SDK for optional meeting scheduling.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "TELECOM is audio-only and does not use the camera. This permission is only referenced by the bundled Zoom Meeting SDK.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "TELECOM does not read your contacts. This permission is only referenced by the bundled Zoom Meeting SDK for optional participant invites.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "TELECOM needs microphone access for audio conference meetings.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "TELECOM does not save anything to your photo library. This permission is only referenced by the bundled Zoom Meeting SDK.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "TELECOM does not access your photos. This permission is only referenced by the bundled Zoom Meeting SDK for optional in-meeting image sharing.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DZOOM_MEETING_SDK";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telecomAudio.universal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E7D86E41300E910200F57AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APS_ENVIRONMENT = production;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/TelecomAudio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D6JJ886DD;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Telecom Audio";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "TELECOM does not access your calendar. This permission is only referenced by the bundled Zoom Meeting SDK for optional meeting scheduling.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "TELECOM does not access your calendar. This permission is only referenced by the bundled Zoom Meeting SDK for optional meeting scheduling.";
+				INFOPLIST_KEY_NSCalendarsWriteOnlyAccessUsageDescription = "TELECOM does not access your calendar. This permission is only referenced by the bundled Zoom Meeting SDK for optional meeting scheduling.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "TELECOM is audio-only and does not use the camera. This permission is only referenced by the bundled Zoom Meeting SDK.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "TELECOM does not read your contacts. This permission is only referenced by the bundled Zoom Meeting SDK for optional participant invites.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "TELECOM needs microphone access for audio conference meetings.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "TELECOM does not save anything to your photo library. This permission is only referenced by the bundled Zoom Meeting SDK.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "TELECOM does not access your photos. This permission is only referenced by the bundled Zoom Meeting SDK for optional in-meeting image sharing.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DZOOM_MEETING_SDK";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telecomAudio.universal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EFE987C3012875400086740 /* Build configuration list for PBXNativeTarget "MobileRTC.xcframework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFE987D3012875400086740 /* Debug */,
+				6EFE987E3012875400086740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EFE98903012876300086740 /* Build configuration list for PBXNativeTarget "MobileRTCResources.bundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFE98913012876300086740 /* Debug */,
+				6EFE98923012876300086740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D86E2F300E910100F57AE2 /* Build configuration list for PBXProject "TelecomAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D86E3D300E910200F57AE2 /* Debug */,
+				E7D86E3E300E910200F57AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D86E3F300E910200F57AE2 /* Build configuration list for PBXNativeTarget "TelecomAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D86E40300E910200F57AE2 /* Debug */,
+				E7D86E41300E910200F57AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A51E0033050000000000001 /* XCRemoteSwiftPackageReference "Siren" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ArtSabintsev/Siren";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.0;
+			};
+		};
+		7A51E00A3050000000000001 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A51E0043050000000000001 /* Siren */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A51E0033050000000000001 /* XCRemoteSwiftPackageReference "Siren" */;
+			productName = Siren;
+		};
+		7A51E00B3050000000000001 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A51E00A3050000000000001 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E7D86E2C300E910100F57AE2 /* Project object */;
+}
